@@ -1,0 +1,11 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "@pinia/nuxt",
+      "date-fns",
+      "socket.io-client"
+    ]
+  }
+}

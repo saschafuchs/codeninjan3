@@ -1,0 +1,37 @@
+.dataTable {
+  &__header {
+    th:first-child {
+      @apply rounded-tl;
+    }
+    th:last-child {
+      @apply rounded-tr;
+    }
+  }
+
+  &__body {
+    tr {
+      &:nth-child(even) {
+        @apply bg-gray-100;
+      }
+
+      &:not(:last-child) {
+        border-bottom: 1px solid #e6e6e6;
+      }
+
+      td {
+        @apply p-3;
+      }
+
+      &:last-child {
+        td:first-child {
+          @apply rounded-bl;
+        }
+
+        td:last-child {
+          @apply rounded-br;
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,90 @@
+:root {
+  --primaryColorRegular: var(--tsxahPrimary);
+  --primaryColor300: #0075bd;
+  --primaryColor400: #0067a7;
+  --primaryColor500: #004377;
+  --primaryColor600: #0094FF;
+  --secondaryColorRegular: var(--tsxahSecondary);
+  --secondaryColor400: #1cd46c;
+  --secondaryColor500: #108142;
+  --thirdColorRegular: #ffebca;
+  --thirdColor400: #FFFBEC;
+  --thirdColor500: #fad57f;
+  --fourthColorRegular: #F1C40F;
+  --fourthColor400: #fcda60;
+  --fourthColor300: #fae8ac;
+  --fourthColor500: #926f04;
+  --signalColorErrorHigh: #F46565;
+  --signalColorErrorHighLower: #fd9595;
+  --signalColorErrorHighLowest: #fadbdb;
+  --signalColorErrorMedium: #fdcb6e;
+  --signalColorErrorMediumLower: #faefd9;
+  --signalColorErrorLow: #2ecc71;
+  --signalColorErrorLowLower: #74eaa6;
+  --signalColorErrorLowLowest: #e0faec;
+  --signalColorErrorNote: #f6e577;
+  --checkProgressBackground: #1f232e;
+  --checkProgressText: #fff;
+  --loginTopBackground: #fff;
+
+
+  /* Brand Colors */
+  --ct-primary: #4cccff;
+  --ct-primary-beta: #32aada;
+  --ct-secondary: #e77b35;
+  --ct-secondary-beta: #e77b35;
+  --ct-tertiary: #ffebca;
+  --ct-tertiary-beta: #ffebca;
+  /* Signal and alert Colors => remove this set and replace it with the next block */
+  --ct-signal-error-alpha: theme('colors.red.700');
+  --ct-signal-error-bravo: theme('colors.red.500');
+  --ct-signal-error-charlie: theme('colors.red.300');
+  --ct-signal-warning-alpha: theme('colors.amber.600');
+  --ct-signal-warning-bravo: theme('colors.amber.500');
+  --ct-signal-warning-charlie: theme('colors.amber.400');
+  --ct-signal-success-alpha: theme('colors.emerald.600');
+  --ct-signal-success-bravo: theme('colors.emerald.500');
+  --ct-signal-success-charlie: theme('colors.emerald.400');
+  /* Signal Colors*/
+  --ct-signal-error-lighter: theme('colors.red.100');
+  --ct-signal-error-light: theme('colors.red.400');
+  --ct-signal-error: theme('colors.red.500');
+  --ct-signal-error-dark: theme('colors.red.600');
+  --ct-signal-warning-lighter: theme('colors.orange.100');
+  --ct-signal-warning-light: theme('colors.orange.400');
+  --ct-signal-warning: theme('colors.orange.500');
+  --ct-signal-warning-dark: theme('colors.orange.600');
+  --ct-signal-success-lighter: theme('colors.green.100');
+  --ct-signal-success-light: theme('colors.green.400');
+  --ct-signal-success: theme('colors.green.500');
+  --ct-signal-success-dark: theme('colors.green.600');
+  /* Gray, light and dark replace it with Mono Colors*/
+  --ct-brightest: theme('colors.white');
+  --ct-neutral-subtle: theme('colors.gray.100');
+  --ct-neutral-alpha: theme('colors.gray.300');
+  --ct-neutral-bravo: theme('colors.gray.500');
+  --ct-neutral-charlie: theme('colors.gray.700');
+  --ct-darkest: theme('colors.gray.900');
+
+  /* Mono Colors */
+  --ct-mono-alpha: theme('colors.white');
+  --ct-mono-bravo: theme('colors.gray.100');
+  --ct-mono-charlie: theme('colors.gray.200');
+  --ct-mono-delta: theme('colors.gray.300');
+  --ct-mono-echo: theme('colors.gray.400');
+  --ct-mono-foxtrot: theme('colors.gray.500');
+  --ct-mono-golf: theme('colors.gray.600');
+  --ct-mono-hotel: theme('colors.gray.700');
+  --ct-mono-india: theme('colors.gray.800');
+  --ct-mono-juliet: theme('colors.gray.900');
+  --ct-mono-kilo: theme('colors.black');
+
+  /* Global Element Tokens  */
+  --ct-pageBackground: theme('colors.gray.50');
+  --ct-text: var(--ct-darkest);
+  --ct-text-slight: theme('colors.gray.800');
+  --ct-text-opposite: var(--ct-brightest);
+  --ct-headline: var(--ct-text);
+  --ct-textlink: var(--ct-primary);
+  --ct-textlink-hover: var(--ct-primary-beta);
+}

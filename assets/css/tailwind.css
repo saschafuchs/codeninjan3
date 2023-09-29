@@ -1,0 +1,12 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'fontfaces.css';
+@import 'transitions.css';
+@import 'base.css';
+@import 'globalTypo.css';
+@import 'grids.css';
+@import 'tables.css';
+@import 'multiselect.css';
+
+

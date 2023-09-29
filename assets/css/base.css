@@ -1,0 +1,11 @@
+body {
+  background: var(--tsxm-mainBackground);
+  color: var(--tsxm-text);
+
+  p {
+    color: var(--tsxm-text);
+  }
+  h1, h2, h3 {
+    color: var(--tsxm-headline);
+  }
+}

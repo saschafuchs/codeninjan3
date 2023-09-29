@@ -1,0 +1,27 @@
+.grid-app {
+  display: grid;
+  grid-gap: 20px 32px;
+  grid-template:
+    'ags' auto
+    'agm' auto /
+    minmax(0, 1fr);
+
+  &__main { grid-area: agm; }
+  &__sidebar { grid-area: ags; }
+
+  @media screen and (min-width: 950px) {
+    grid-template:
+    'agm ags' /
+    minmax(0, 1fr) 400px;
+    &__sidebar > div {
+      @apply sticky;
+    }
+  }
+}
+
+.responsiveThreeColGrid {
+  --auto-grid-min-size: 20rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 32px;
+}

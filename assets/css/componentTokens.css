@@ -1,0 +1,73 @@
+:root {
+  /* Button Element */
+  --cpt-buttonElementBase-text: var(--ct-brightest);
+  --cpt-buttonElementBase-background: var(--ct-primary);
+  --cpt-buttonElementBase-hoverText: var(--cpt-buttonElementBase-text);
+  --cpt-buttonElementBase-hoverBackground: var(--ct-primary-beta);
+  --cpt-buttonElementSecondary-text: var(--ct-brightest);
+  --cpt-buttonElementSecondary-background: var(--ct-secondary);
+  --cpt-buttonElementSecondary-hoverText: var(--cpt-buttonElementBase-text);
+  --cpt-buttonElementSecondary-hoverBackground: var(--ct-secondary-beta);
+  --cpt-buttonElementCaution-text: var(--ct-brightest);
+  --cpt-buttonElementCaution-background: var(--ct-signal-error-alpha);
+  --cpt-buttonElementCaution-hoverText: var(--cpt-buttonElementCaution-text);
+  --cpt-buttonElementCaution-hoverBackground: var(--ct-signal-error-bravo);
+  --cpt-buttonElementCarefree-text: var(--ct-brightest);
+  --cpt-buttonElementCarefree-background: theme('colors.gray.300');
+  --cpt-buttonElementCarefree-hoverText: var(--cpt-buttonElementCarefree-text);
+  --cpt-buttonElementCarefree-hoverBackground: theme('colors.gray.400');
+  --cpt-buttonElementInfo-text: theme('colors.gray.700');
+  --cpt-buttonElementInfo-background: var(--ct-primary-beta);
+  --cpt-buttonElementInfo-hoverText: var(--cpt-buttonElementInfo-text);
+  --cpt-buttonElementInfo-hoverBackground: var(--ct-primary);
+  --cpt-buttonElementTransparent-text: theme('colors.gray.700');
+  --cpt-buttonElementGray-text: theme('colors.gray.700');
+  --cpt-buttonElementGray-background: theme('colors.gray.200');
+  --cpt-buttonElementGray-hoverText: var(--cpt-buttonElementGray-text);
+  --cpt-buttonElementGray-hoverBackground: theme('colors.gray.300');
+  --cpt-buttonElementGrayed-text: var(--ct-text-opposite);
+  --cpt-buttonElementGrayed-background: theme('colors.gray.400');
+  --cpt-buttonElementGrayed-hoverText: var(--cpt-buttonElementGrayed-text);
+  --cpt-buttonElementGrayed-hoverBackground: theme('colors.gray.300');
+  --cpt-buttonElementAction-text: var(--ct-mono-foxtrot);
+  --cpt-buttonElementAction-hoverText: var(--ct-mono-hotel);
+  --cpt-buttonElementAction-hoverBackground: var(--ct-mono-charlie);
+  --cpt-buttonElementActionWarning-text: var(--ct-mono-foxtrot);
+  --cpt-buttonElementActionWarning-hoverText: var(--ct-mono-alpha);
+  --cpt-buttonElementActionWarning-hoverBackground: var(--ct-signal-error);
+  /* Sidescreen */
+  --tsxScreenPrimary: #52bce5;
+  --tsxScreenPrimaryHover: #68caef;
+  --tsxScreenMarketing: #e77b35;
+  --tsxScreenMarketingHover: #e16b1f;
+  --tsxScreenBackground: #ffffff;
+  --tsxScreenText: #374253;
+  --tsxScreenHeadline: #111729;
+  /* AppHeader */
+  --tsxahBackground:#fff;
+  --tsxahText:#131313;
+  --tsxahPrimary:#4cccff;
+  --tsxahSecondary:#e77b35;
+  --tsxahPrimaryHover:#28aade;
+  --tsxahSecondaryHover:#e16b1f;
+  --tsxahSubtleHover:#f5f5f5;
+  --tsxahNavBorderHover:#dcdcdc;
+  --tsxahNavBorderActive:#4cccff;
+  --tsxahDDBackground:#fff;
+  --tsxahDDText:#222;
+  --tsxahDDIcon:#565656;
+  --tsxahDDIconImportant:#ca3931;
+  --tsxahDDInfo:#737373;
+  --tsxahDDHoverBackground:#f1f1f1;
+  --tsxahDDHoverText:#3d3d3d;
+  --tsxahDDActiveText:#4cccff;
+  --tsxahDDActiveBackground:#fff;
+  --tsxahDots:#737373;
+  --tsxahDivider:#e7e7e7;
+  --tsxahLogo:#282828;
+  --tsxahChevron:#484848;
+  --tsxahChangelogColorRegular:#ca3931;
+  --tsxahChangelogColorHover:#9d1d15;
+
+
+}
